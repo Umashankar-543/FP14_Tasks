@@ -1,0 +1,18 @@
+body{
+    background-color: silver;
+}
+table{
+    margin: auto;   
+    border: 2px solid; 
+    padding: 10px;
+    background-color: whitesmoke;
+}
+td{
+    padding: 7px;
+}
+#b1{
+    background-color: rgb(78, 149, 248);
+}
+#b2{
+    background-color: rgb(250, 59, 59);
+}
