@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Interest</title>
+        <script src="si.js"></script>
+        <link rel="stylesheet" href="si.css">
+    </head>
+    <body>
+        <form action="servelet1" onsubmit="return interest()" onreset="return cleardata()">
+            <table>
+                <caption>
+                    <h3>Simple Interest Calculation</h3>
+                </caption>
+                <tr>
+                    <td>
+                        <b>Enter the Principal :</b>
+                    </td>
+                    <td>
+                        <input type="text" id="Principal" name="principal">
+                    </td>
+                    <td>
+                        <span>*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Enter the Time :</b>
+                    </td>
+                    <td>
+                        <input type="text" id="Time" name="time">
+                    </td>
+                    <td>
+                        <span>*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Enter the Rate % :</b>
+                    </td>
+                    <td>
+                        <input type="text" id="Rate" name="rate">
+                    </td>
+                    <td>
+                        <span>*</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+        
+                    </td>
+                    <td>
+                        <input type="submit" id="b1" value="Solve">
+                        &nbsp;&nbsp;
+                        <input type="reset" id="b2" value="Clear">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

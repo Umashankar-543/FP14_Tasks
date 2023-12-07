@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Area of Circle</title>
+    <script src="area.js"></script>
+    <link rel="stylesheet" href="area.css">
+</head>
+
+<body>
+    <form action="servlet1" onsubmit="return area()" onreset="return cleardata()">
+        <table>
+            <caption>
+                <h3>Area of Circle</h3>
+            </caption>
+            <tr>
+                <td>
+                    <b>Enter the radius :</b>
+                </td>
+                <td>
+                    <input type="number" id="radius" name="radius">
+                </td>
+                <td>
+                    <span id="span1">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+    
+                </td>
+                <td>
+                    <input type="submit" id="b1" value="Solve">
+                    &nbsp;&nbsp;
+                    <input type="reset" id="b2" value="Clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
