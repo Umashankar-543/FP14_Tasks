@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Items</title>
+    <link rel="stylesheet" href="items.css">
+    <script src="items.js"></script>
+</head>
+
+<body>
+    <table>
+        <caption><h3>Price Calculation</h3></caption>
+        <tr>
+            <td>Enter item price : </td>
+            <td><input type="text" id="price" placeholder="000"></td>
+            <td><input type="submit" value="Add to list" id="add" onclick="add()"></td>
+        </tr>
+        <tr id="list">
+
+        </tr>
+        <tr>
+            <td><input type="button" value="Total" id="b1" onclick="total()"><b> = </b><span id="span1"></span></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Total with 5% discount" id="b2" onclick="discount()"><b> = </b><span id="span2"></span></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Total with 18% GST" id="b3" onclick="gst()"><b> = </b><span id="span3"></span></td>
+        </tr>
+    </table>
+</body>
+
+</html>

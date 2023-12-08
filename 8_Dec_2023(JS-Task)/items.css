@@ -1,0 +1,21 @@
+body{
+    background-color: silver;
+}
+table{
+    margin: auto;   
+    border: 2px solid; 
+    padding: 7px;
+    background-color: whitesmoke;
+}
+td{
+    padding: 7px;
+}
+#add{
+    background-color: red;
+}
+#b1, #b2, #b3{
+    background-color: rgb(116, 151, 254);
+}
+span{
+    color: brown;
+}
